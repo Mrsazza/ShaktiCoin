@@ -11,6 +11,22 @@
 		FA47981E281C089B0032E42C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47981D281C089B0032E42C /* ContentView.swift */; };
 		FA479820281C089D0032E42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA47981F281C089D0032E42C /* Assets.xcassets */; };
 		FA479823281C089D0032E42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA479822281C089D0032E42C /* Preview Assets.xcassets */; };
+		FA47982C281C6AAF0032E42C /* KeyPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47982B281C6AAF0032E42C /* KeyPadButton.swift */; };
+		FA47982F281C6AE60032E42C /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47982E281C6AE60032E42C /* EnvironmentValues.swift */; };
+		FA479831281C6CC90032E42C /* KeyPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA479830281C6CC90032E42C /* KeyPadRow.swift */; };
+		FA479835281C72120032E42C /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA479834281C72120032E42C /* KeyPad.swift */; };
+		FA479838281C7C630032E42C /* PinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA479837281C7C630032E42C /* PinCodeView.swift */; };
+		FADF8783281C939E007D7821 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8782281C939D007D7821 /* PrimaryButtonStyle.swift */; };
+		FADF8787281D01F5007D7821 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8786281D01F5007D7821 /* SignUpView.swift */; };
+		FADF8789281D0393007D7821 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8788281D0393007D7821 /* BackgroundView.swift */; };
+		FADF878B281D084A007D7821 /* LogoTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF878A281D084A007D7821 /* LogoTop.swift */; };
+		FADF878D281D0B64007D7821 /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF878C281D0B64007D7821 /* PlaceHolder.swift */; };
+		FADF878F281D0F0B007D7821 /* RectangleTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF878E281D0F0B007D7821 /* RectangleTextFieldStyle.swift */; };
+		FADF8791281D34BD007D7821 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8790281D34BC007D7821 /* LogInView.swift */; };
+		FADF8793281D393C007D7821 /* PinUpdatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8792281D393C007D7821 /* PinUpdatedView.swift */; };
+		FADF8795281D3C47007D7821 /* DropdownSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8794281D3C47007D7821 /* DropdownSelector.swift */; };
+		FADF8798281D3E10007D7821 /* DropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF8797281D3E10007D7821 /* DropDownList.swift */; };
+		FADF879B281D4478007D7821 /* DropDownOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF879A281D4478007D7821 /* DropDownOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		FA47981D281C089B0032E42C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA47981F281C089D0032E42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA479822281C089D0032E42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA47982B281C6AAF0032E42C /* KeyPadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadButton.swift; sourceTree = "<group>"; };
+		FA47982E281C6AE60032E42C /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		FA479830281C6CC90032E42C /* KeyPadRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadRow.swift; sourceTree = "<group>"; };
+		FA479834281C72120032E42C /* KeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
+		FA479837281C7C630032E42C /* PinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeView.swift; sourceTree = "<group>"; };
+		FADF8782281C939D007D7821 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		FADF8786281D01F5007D7821 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FADF8788281D0393007D7821 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		FADF878A281D084A007D7821 /* LogoTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTop.swift; sourceTree = "<group>"; };
+		FADF878C281D0B64007D7821 /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
+		FADF878E281D0F0B007D7821 /* RectangleTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleTextFieldStyle.swift; sourceTree = "<group>"; };
+		FADF8790281D34BC007D7821 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		FADF8792281D393C007D7821 /* PinUpdatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinUpdatedView.swift; sourceTree = "<group>"; };
+		FADF8794281D3C47007D7821 /* DropdownSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownSelector.swift; sourceTree = "<group>"; };
+		FADF8797281D3E10007D7821 /* DropDownList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownList.swift; sourceTree = "<group>"; };
+		FADF879A281D4478007D7821 /* DropDownOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,11 @@
 		FA47981A281C089B0032E42C /* ShaktiCoin */ = {
 			isa = PBXGroup;
 			children = (
+				FADF8799281D4463007D7821 /* Model */,
+				FADF8796281D3DF2007D7821 /* Data */,
+				FADF8781281C938A007D7821 /* Style */,
+				FA47982D281C6AC60032E42C /* Extension */,
+				FA479829281C6A820032E42C /* View */,
 				FA47981B281C089B0032E42C /* ShaktiCoinApp.swift */,
 				FA47981D281C089B0032E42C /* ContentView.swift */,
 				FA47981F281C089D0032E42C /* Assets.xcassets */,
@@ -65,6 +102,73 @@
 				FA479822281C089D0032E42C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA479829281C6A820032E42C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA479836281C7C380032E42C /* SubView */,
+				FA47982A281C6A8E0032E42C /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA47982A281C6A8E0032E42C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA47982B281C6AAF0032E42C /* KeyPadButton.swift */,
+				FA479830281C6CC90032E42C /* KeyPadRow.swift */,
+				FA479834281C72120032E42C /* KeyPad.swift */,
+				FADF8788281D0393007D7821 /* BackgroundView.swift */,
+				FADF878A281D084A007D7821 /* LogoTop.swift */,
+				FADF8794281D3C47007D7821 /* DropdownSelector.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA47982D281C6AC60032E42C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA47982E281C6AE60032E42C /* EnvironmentValues.swift */,
+				FADF878C281D0B64007D7821 /* PlaceHolder.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FA479836281C7C380032E42C /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				FA479837281C7C630032E42C /* PinCodeView.swift */,
+				FADF8786281D01F5007D7821 /* SignUpView.swift */,
+				FADF8790281D34BC007D7821 /* LogInView.swift */,
+				FADF8792281D393C007D7821 /* PinUpdatedView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		FADF8781281C938A007D7821 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				FADF8782281C939D007D7821 /* PrimaryButtonStyle.swift */,
+				FADF878E281D0F0B007D7821 /* RectangleTextFieldStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		FADF8796281D3DF2007D7821 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FADF8797281D3E10007D7821 /* DropDownList.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FADF8799281D4463007D7821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FADF879A281D4478007D7821 /* DropDownOption.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +241,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADF8789281D0393007D7821 /* BackgroundView.swift in Sources */,
+				FA479831281C6CC90032E42C /* KeyPadRow.swift in Sources */,
+				FA479835281C72120032E42C /* KeyPad.swift in Sources */,
 				FA47981E281C089B0032E42C /* ContentView.swift in Sources */,
+				FA47982C281C6AAF0032E42C /* KeyPadButton.swift in Sources */,
+				FADF8783281C939E007D7821 /* PrimaryButtonStyle.swift in Sources */,
 				FA47981C281C089B0032E42C /* ShaktiCoinApp.swift in Sources */,
+				FADF879B281D4478007D7821 /* DropDownOption.swift in Sources */,
+				FADF878B281D084A007D7821 /* LogoTop.swift in Sources */,
+				FADF8793281D393C007D7821 /* PinUpdatedView.swift in Sources */,
+				FADF8791281D34BD007D7821 /* LogInView.swift in Sources */,
+				FA47982F281C6AE60032E42C /* EnvironmentValues.swift in Sources */,
+				FADF8798281D3E10007D7821 /* DropDownList.swift in Sources */,
+				FADF8787281D01F5007D7821 /* SignUpView.swift in Sources */,
+				FA479838281C7C630032E42C /* PinCodeView.swift in Sources */,
+				FADF878F281D0F0B007D7821 /* RectangleTextFieldStyle.swift in Sources */,
+				FADF878D281D0B64007D7821 /* PlaceHolder.swift in Sources */,
+				FADF8795281D3C47007D7821 /* DropdownSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

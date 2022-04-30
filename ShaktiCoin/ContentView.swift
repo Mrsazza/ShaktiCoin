@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        /// Pin Code View
+        // PinCodeView()
+        
+        /// Sign Up View
+        SignUpView()
+        
+        ///Log in View
+        //LogInView()
+        
+        /// Pin Updated View
+//        PinUpdatedView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .previewDevice("iPhone 8")
+        }
     }
 }
